@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  margin-top: 3rem; /* Adjust based on Navbar height */
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 2rem; /* Adjust for smaller screens */
+  }
+}

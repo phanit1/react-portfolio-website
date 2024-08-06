@@ -1,0 +1,12 @@
+.skills {
+  height: 85vh;
+  padding: 10rem;
+  background-color: aqua;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    height: 50vw;
+    padding: 10rem;
+  }
+}
